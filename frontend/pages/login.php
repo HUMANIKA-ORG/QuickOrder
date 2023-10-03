@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="../../assets/style.css">
 
 <div class="first">
-    <img src="" alt="">
+    <img src="../../assets/img/humanikastore-circle.png" alt="">
     <h1>Humanika <br> Store</h1>
 </div>
 
@@ -16,7 +16,7 @@
         
         <b><label for="">Password</label></b>
         <input type="text" placeholder="Masukan Password">
-    <b><p>Belum punya akun <a href="">Register</a> Disini</p></b>
+    <b><a>Belum punya akun Register disini</a></b>
         <center><button>Login</button></center>
 </form>
 

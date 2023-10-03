@@ -8,7 +8,19 @@ body{
 
 .first{
     color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
 
+.first h1{
+    font-size: 24px;
+}
+
+.first img{
+    width: 8%;
+    height: 100%;
 }
 
 form{
@@ -29,10 +41,6 @@ input{
     padding: 0.5rem;
 }
 
-form p{
- text-align: right;
- 
-}
 
 form h1{
     text-align: center;
@@ -50,6 +58,12 @@ form button{
 }
 
 form button:hover{
-    background-color: blueviolet;
+    background-color: red;
+}
+
+a{
+    text-decoration: none;
     color: black;
+    display: flex;
+    justify-content: end;
 }
