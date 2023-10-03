@@ -9,6 +9,7 @@
 </div>
 
 <form action="">
+    <h1>Register Account</h1>
     <label for="">Username</label>
         <input type="text" placeholder="Masukan Username">
     <label for="">Email</label>
@@ -17,7 +18,7 @@
             <input type="text" placeholder="Masukan Password">
     <label for="">Re Type: Password</label>
             <input type="text" placeholder="Masukan Ulang Password">
-            <a href="">Sudah punya akun? Login disini!</a>
+            <a href="login.php">Sudah punya akun? Login disini!</a>
     <center><button>Daftar</button></center>
 </form>
 
