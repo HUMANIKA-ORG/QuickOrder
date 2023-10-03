@@ -28,7 +28,7 @@ form{
     flex-direction: column;
     background-color: white;
     justify-content: center;
-    margin: 0 400px 0 400px;
+    margin: 34px 400px 0 400px;
     border-radius: 20px;
     padding: 40px;
     gap: 18px;
@@ -66,4 +66,5 @@ a{
     color: black;
     display: flex;
     justify-content: end;
+    cursor: pointer;
 }

@@ -16,7 +16,7 @@
         
         <b><label for="">Password</label></b>
         <input type="text" placeholder="Masukan Password">
-    <b><a>Belum punya akun Register disini</a></b>
+    <a href="register.php"><b>Belum punya akun Register disini</b></a>
         <center><button>Login</button></center>
 </form>
 
