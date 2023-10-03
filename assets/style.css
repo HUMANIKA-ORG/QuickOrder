@@ -28,7 +28,7 @@ form{
     flex-direction: column;
     background-color: white;
     justify-content: center;
-    margin: 0 400px 0 400px;
+    margin: 34px 400px 0 400px;
     border-radius: 20px;
     padding: 40px;
     gap: 18px;
@@ -49,7 +49,7 @@ form h1{
 form button{
     padding: 6px 50px 6px 50px;
     border-radius: 10px;
-    font-weight: 800;
+    font-weight: 600;
     background-color: #058bb6;
     color: white;
     font-size: 18px;
@@ -66,4 +66,5 @@ a{
     color: black;
     display: flex;
     justify-content: end;
+    cursor: pointer;
 }
