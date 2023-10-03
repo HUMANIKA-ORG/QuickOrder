@@ -1,1 +1,55 @@
 /* This file containe CSS */
+body{
+    margin: 0;    
+    background-color: #058bb6;
+    font-family: 'montserrat';
+    height: 100vh;
+}
+
+.first{
+    color: white;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    margin: 0 400px 0 400px;
+    border-radius: 20px;
+    padding: 40px;
+    gap: 18px;
+
+}
+
+input{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+form p{
+ text-align: right;
+ 
+}
+
+form h1{
+    text-align: center;
+}
+
+form button{
+    padding: 6px 50px 6px 50px;
+    border-radius: 10px;
+    font-weight: 800;
+    background-color: #058bb6;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: blueviolet;
+    color: black;
+}
