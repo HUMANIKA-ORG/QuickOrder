@@ -67,7 +67,7 @@ a{
     display: flex;
     justify-content: end;
     cursor: pointer;
-
+    font-weight: bolder;
 }
 
 label{
