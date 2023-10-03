@@ -16,9 +16,9 @@
         <input type="text" placeholder="Masukan Email">
     <label for="">Password</label>
             <input type="text" placeholder="Masukan Password">
-    <label for="">Re Type: Password</label>
+    <label for="">Re Type Password</label>
             <input type="text" placeholder="Masukan Ulang Password">
-            <a href="login.php">Sudah punya akun? Login disini!</a>
+            <a href="login.php"><b>Sudah punya akun? Login disini!</b></a>
     <center><button>Daftar</button></center>
 </form>
 
