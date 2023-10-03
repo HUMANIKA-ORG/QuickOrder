@@ -67,8 +67,10 @@ a{
     display: flex;
     justify-content: end;
     cursor: pointer;
+
 }
 
 label{
     font-weight: 800;
 }
+
