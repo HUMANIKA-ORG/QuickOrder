@@ -15,11 +15,11 @@ include_once("../header.php");
     <h1>Login Account</h1>
     <label for="">Username</label>
     <input type="text" placeholder="Masukan Username">
-    <a href="lupapassword.php">Lupa Password?</a>
+    <a href="forgotpassword.php">Lupa Password?</a>
     <label for="">Password</label>
-    <input type="text" placeholder="Masukan Password">
+    <input type="password" placeholder="Masukan Password">
     <a href="register.php">Belum punya akun? Register disini!</a>
-    <button>Login</button>
+    <button type="submit">Login</button>
 </form>
 
 

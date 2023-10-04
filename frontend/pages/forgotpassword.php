@@ -18,7 +18,7 @@ include_once("../header.php");
     <label for="">Email</label>
     <input type="text" placeholder="Masukan Email">
     <a href="register.php">Belum punya akun? Register disini!</a>
-    <a class="send" href="verification.php"><button>Send Email</button></a>
+    <button type="submit">Send Email</button>
 </form>
 
 

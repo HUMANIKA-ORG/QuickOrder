@@ -9,17 +9,17 @@ include_once("../header.php");
 </div>
 
 <form action="">
-        <h1>Register Account</h1>
+    <h1>Register Account</h1>
     <label for="">Username</label>
     <input type="text" placeholder="Masukan Username">
     <label for="">Email</label>
     <input type="text" placeholder="Masukan Email">
     <label for="">Password</label>
-    <input type="text" placeholder="Masukan Password">
+    <input type="password" placeholder="Masukan Password">
     <label for="">Re Type Password</label>
-    <input type="text" placeholder="Masukan Ulang Password">
+    <input type="password" placeholder="Masukan Ulang Password">
     <a href="login.php">Sudah punya akun? Login disini!</a>
-    <button>Daftar</button>
+    <button type="submit">Daftar</button>
 </form>
 
 

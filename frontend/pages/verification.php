@@ -13,7 +13,7 @@ include_once("../header.php");
     <label for="">Verifikasi Kode</label>
     <input type="text" placeholder="Masukan Kode verifikasi">
     <a href="login.php">Sudah Punya akun? Login disini!</a>
-    <a href="#.php"><button>Verifikasi</button></a>
+    <button type="submit">Verifikasi</button>
 </form>
 
 
