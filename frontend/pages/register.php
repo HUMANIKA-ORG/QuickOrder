@@ -1,5 +1,5 @@
 <?php
-    include_once("../header.php");
+include_once("../header.php");
 ?>
 <link rel="stylesheet" href="../../assets/style.css">
 
@@ -11,18 +11,18 @@
 <form action="">
     <h1>Register Account</h1>
     <label for="">Username</label>
-        <input type="text" placeholder="Masukan Username">
+    <input type="text" placeholder="Masukan Username">
     <label for="">Email</label>
-        <input type="text" placeholder="Masukan Email">
+    <input type="text" placeholder="Masukan Email">
     <label for="">Password</label>
-            <input type="text" placeholder="Masukan Password">
+    <input type="text" placeholder="Masukan Password">
     <label for="">Re Type Password</label>
-            <input type="text" placeholder="Masukan Ulang Password">
-            <a href="login.php"><b>Sudah punya akun? Login disini!</b></a>
-    <center><button>Daftar</button></center>
+    <input type="text" placeholder="Masukan Ulang Password">
+    <a href="login.php">Sudah punya akun? Login disini!</a>
+    <button>Daftar</button>
 </form>
 
 
 <?php
-    include_once("../footer.php");
+include_once("../footer.php");
 ?>

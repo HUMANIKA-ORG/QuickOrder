@@ -17,7 +17,7 @@ include_once("../header.php");
     <b><label for="">Password</label></b>
     <input type="text" placeholder="Masukan Password">
     <a href="register.php">Belum punya akun? Register disini!</a>
-    <center><button>Login</button></center>
+    <button>Login</button>
 </form>
 
 <?php
