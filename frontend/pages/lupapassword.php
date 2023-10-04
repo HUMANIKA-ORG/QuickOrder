@@ -1,6 +1,9 @@
 <?php
 include_once("../header.php");
 ?>
+
+
+
 <link rel="stylesheet" href="../../assets/style.css">
 
 <div class="first">
@@ -15,7 +18,7 @@ include_once("../header.php");
     <label for="">Email</label>
     <input type="text" placeholder="Masukan Email">
     <a href="register.php">Belum punya akun? Register disini!</a>
-    <a href="verification.php"><button>Send Email</button></a>
+    <a class="send" href="verification.php"><button>Send Email</button></a>
 </form>
 
 

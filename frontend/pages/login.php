@@ -15,7 +15,7 @@ include_once("../header.php");
     <h1>Login Account</h1>
     <label for="">Username</label>
     <input type="text" placeholder="Masukan Username">
-    <a class="forget" href="lupapassword.php">Lupa Password?</a>
+    <a href="lupapassword.php">Lupa Password?</a>
     <label for="">Password</label>
     <input type="text" placeholder="Masukan Password">
     <a href="register.php">Belum punya akun? Register disini!</a>
