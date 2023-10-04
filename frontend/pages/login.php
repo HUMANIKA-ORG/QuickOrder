@@ -10,15 +10,6 @@ include_once("../header.php");
 </div>
 
 
-<<<<<<< HEAD
-    <b><label for="">Password</label></b>
-    <input type="text" placeholder="Masukan Password">
-    <a href="register.php">Belum punya akun? Register disini!</a>
-    <button>Login</button>
-</form>
-=======
-
-
 
     <form action="" >
             <h1 >Login Account</h1>
@@ -31,8 +22,6 @@ include_once("../header.php");
      <center><button>Login</button></center>
     </form>
     
-    
->>>>>>> af9f350e923a98d718832e9aff3408d578ea99b2
 
 <?php
 include_once("../footer.php");
