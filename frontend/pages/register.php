@@ -2,7 +2,6 @@
     include_once("../header.php");
 ?>
 <link rel="stylesheet" href="../../assets/style.css">
-<link rel="stylesheet" href="../../assets/aos-master/dist/aos.css">
 
 <div class="first">
     <img src="../../assets/img/humanikastore-circle.png" alt="">
@@ -22,11 +21,6 @@
             <a href="login.php"><b>Sudah punya akun? Login disini!</b></a>
     <center><button>Daftar</button></center>
 </form>
-
-<script src="../../assets/aos-master//dist/aos.js"></script>
-<script>
-        AOS.init();
-</script>
 
 
 

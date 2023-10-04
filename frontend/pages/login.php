@@ -1,14 +1,14 @@
 <?php
-    include_once("../header.php");
+include_once("../header.php");
 
 ?>
 <link rel="stylesheet" href="../../assets/style.css">
-<link rel="stylesheet" href="../../assets/aos-master/dist/aos.css">
 
 <div class="first">
     <img src="../../assets/img/humanikastore-circle.png" alt="">
     <h1>Humanika <br> Store</h1>
 </div>
+
 
 
 <div class="back">
@@ -25,11 +25,19 @@
     </form>
     
 </div>
-    <script src="../../assets/aos-master//dist/aos.js"></script>
-    <script>
-        AOS.init();
-</script>
+    
+<form action="">
+    <h1>Login Account</h1>
+    <b><label for="">Username</label></b>
+    <input type="text" placeholder="Masukan Username">
+
+    <b><label for="">Password</label></b>
+    <input type="text" placeholder="Masukan Password">
+    <a href="register.php">Belum punya akun? Register disini!</a>
+    <center><button>Login</button></center>
+</form>
+
 
 <?php
-    include_once("../footer.php");
+include_once("../footer.php");
 ?>
