@@ -9,7 +9,7 @@ include_once("../header.php");
 </div>
 
 <form action="">
-    <h1>Register Account</h1>
+        <h1>Register Account</h1>
     <label for="">Username</label>
     <input type="text" placeholder="Masukan Username">
     <label for="">Email</label>
@@ -21,6 +21,7 @@ include_once("../header.php");
     <a href="login.php">Sudah punya akun? Login disini!</a>
     <button>Daftar</button>
 </form>
+
 
 
 <?php
