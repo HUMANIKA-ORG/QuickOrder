@@ -11,7 +11,7 @@ include_once("../header.php");
 
 
 
-<div class="back">
+
 
     <form action="" >
             <h1 >Login Account</h1>
@@ -24,19 +24,7 @@ include_once("../header.php");
      <center><button>Login</button></center>
     </form>
     
-</div>
     
-<form action="">
-    <h1>Login Account</h1>
-    <b><label for="">Username</label></b>
-    <input type="text" placeholder="Masukan Username">
-
-    <b><label for="">Password</label></b>
-    <input type="text" placeholder="Masukan Password">
-    <a href="register.php">Belum punya akun? Register disini!</a>
-    <center><button>Login</button></center>
-</form>
-
 
 <?php
 include_once("../footer.php");
