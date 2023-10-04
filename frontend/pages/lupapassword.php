@@ -1,6 +1,5 @@
 <?php
 include_once("../header.php");
-
 ?>
 <link rel="stylesheet" href="../../assets/style.css">
 
@@ -9,18 +8,16 @@ include_once("../header.php");
     <h1>Humanika <br> Store</h1>
 </div>
 
-
-
 <form action="">
-    <h1>Login Account</h1>
+    <h1>Lupa Password</h1>
     <label for="">Username</label>
     <input type="text" placeholder="Masukan Username">
-    <a class="forget" href="lupapassword.php">Lupa Password?</a>
-    <label for="">Password</label>
-    <input type="text" placeholder="Masukan Password">
+    <label for="">Email</label>
+    <input type="text" placeholder="Masukan Email">
     <a href="register.php">Belum punya akun? Register disini!</a>
-    <button>Login</button>
+    <a href="verification.php"><button>Send Email</button></a>
 </form>
+
 
 
 <?php
