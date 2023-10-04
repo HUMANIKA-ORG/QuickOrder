@@ -57,6 +57,7 @@ form h1{
 }
 
 form button{
+    display: flex;
     padding: 6px 50px 6px 50px;
     border-radius: 10px;
     font-weight: 600;
@@ -65,8 +66,7 @@ form button{
     font-size: 18px;
     border: none;
     cursor: pointer;
-    margin-left: 90px;
-    margin-right: 90px;
+    justify-content: center;
 }
 
 form button:hover{
