@@ -3,8 +3,8 @@ body{
     margin: 0;    
     font-family: 'montserrat';  
     background-image: linear-gradient(
-        rgba(0,0,0,0.6),
-        rgba(0,0,0,0.6)
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
     ), url(../assets/img/back.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,6 +39,9 @@ form{
     border-radius: 20px;
     padding: 40px;
     gap: 18px;
+    box-shadow: 10px 10px 5px 0px rgba(224, 209, 209, 0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(224, 209, 209, 0.75);
+-moz-box-shadow: 10px 10px 5px 0px rrgba(224, 209, 209, 0.75);
 
 }
 
@@ -80,4 +83,6 @@ a{
 label{
     font-weight: 800;
 }
+
+
 
