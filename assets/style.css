@@ -1,31 +1,27 @@
 /* This file containe CSS */
 body{
     margin: 0;    
+    padding: 0;
     font-family: 'montserrat';  
-    background-image: linear-gradient(
-        rgba(0,0,0,0.7),
-        rgba(0,0,0,0.7)
-    ), url(../assets/img/back.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../assets/img/back.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 120vh;
-
+    min-height: 100vh;
 }
 
-.first{
+.brand{
     color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 20px;
-    
+    margin-left: 20px;    
 }
 
-.first h1{
+.brand h1{
     font-size: 24px;
 }
 
-.first img{
+.brand img{
     width: 8%;
     height: 100%;
 }
@@ -36,32 +32,43 @@ form{
     background-color: white;
     justify-content: center;
     font-weight: bolder;
-    margin: 46px 450px 0 450px;
+    margin: 0px 450px 0 450px;
     border-radius: 20px;
     padding: 40px;
-    gap: 18px;
     box-shadow: 10px 10px 5px 0px rgba(224, 209, 209, 0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(224, 209, 209, 0.75);
--moz-box-shadow: 10px 10px 5px 0px rrgba(224, 209, 209, 0.75);
-
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(224, 209, 209, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(224, 209, 209, 0.75);
 }
 
-input{
+.content-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+}
+
+form .content-form input{
     border-radius: 10px;
     border: 1px solid black;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 
-form h1{
+.head-form h1{
     text-align: center;
 }
 
-form button{
+.head-form .error {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+
+form .content-form button{
     display: flex;
-    padding: 6px 50px 6px 50px;
+    padding: 12px;
     border-radius: 10px;
-    font-weight: 600 bolder;
+    font-weight: 600;
     background-color: #058bb6;
     color: white;
     font-size: 18px;
@@ -70,26 +77,27 @@ form button{
     justify-content: center;
 }
 
-form button:hover{
+form .content-form button:hover{
     background-color: red;
 }
 
 
-a{
+form .content-form a{
     text-decoration: none;
     color: black;
     display: flex;
     justify-content: end;
     cursor: pointer;
     font-weight: bolder;
+    font-size: 12px;
 }
 
-a:hover {
+form .content-form a:hover {
     color: navy;
 }
 
-label{
-    font-weight: 800 bolder;
+form .content-form label{
+    font-weight: 800;
 }
 
 
